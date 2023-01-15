@@ -20,7 +20,7 @@ hands = mp_hands.Hands(model_complexity=0, min_detection_confidence=0.5, min_tra
 
 def draw():
     # screen.fill('white')
-    screen.draw.filled_rect(box, 'red')
+    screen.draw.filled_rect(box, 'blue')
 
 def update():
 
